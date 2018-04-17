@@ -11,6 +11,8 @@ int main()
     createListP(L);
     listPasien Lp;
     createListPa(Lp);
+    listrelasi Lr;
+    createListR(Lr);
     adr_P P=NULL;
     adr_pa Pa=NULL;
     char menu='y';
@@ -40,9 +42,30 @@ int main()
     case 2 :
         cout<<"Nama pasien : ";
         cin>> namaPasien;
-        allocatePa(Pa, namaPasien);
-        insertlastPa(Lp,Pa);
-        cout<<info(first(Lp)).namaPasien<<endl;
+
+        if(cariNama(Lp , namaPasien) == NULL){
+            cout<<"Pasien Sudah Ada"<<endl;
+        }else{
+
+            allocatePa(Pa, namaPasien);
+            cout<<"Masukan Nama Penyakit "<<namaPasien<<" : "<<endl;
+            string penyakit;
+            cin>>penyakit;
+            adr_P q = cariPenyakit(L  ,  penyakit);
+            if(q == NULL){
+                cout<<"Maaf Penyakit Belum ada di data Penyimpanan"<<endl;
+            }else{
+                insertlastPa(Lp,Pa);
+                //cout<<info(first(Lp)).namaPasien<<endl;
+                adr_r r = NULL;
+                allocateR( r , q , Pa);
+                insertfirstR(Lr , r);
+                cout<<"Data Berhasil Ditambahkan"<<endl;
+            }
+
+
+
+        }
         break;
 
     case 3 :{

@@ -39,3 +39,21 @@
 1523971739 e:\perkuliahan\tubes std\berobat 2\relasi.h
 	"pasien.h"
 
+1523973096 source:d:\diske\kuliah\github\danu\penyakit.cpp
+	"penyakit.h"
+
+1523973096 d:\diske\kuliah\github\danu\penyakit.h
+	<iostream>
+
+1523973096 source:d:\diske\kuliah\github\danu\relasi.cpp
+	"relasi.h"
+
+1523973096 d:\diske\kuliah\github\danu\relasi.h
+	"pasien.h"
+
+1523974233 d:\diske\kuliah\github\danu\pasien.h
+	"penyakit.h"
+
+1523973626 source:d:\diske\kuliah\github\danu\main.cpp
+	"relasi.h"
+

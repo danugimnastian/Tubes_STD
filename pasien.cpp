@@ -75,3 +75,6 @@ void hapusDataPasien(listPasien &Lp, adr_pa P){
 }
 
 
+
+
+
