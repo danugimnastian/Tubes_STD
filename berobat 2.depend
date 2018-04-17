@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1523287502 source:d:\tubes std\berobat 2\pasien.cpp
+	"pasien.h"
+
+1522228631 source:d:\tubes std\berobat 2\relasi.cpp
+
+1523287399 source:d:\tubes std\berobat 2\main.cpp
+	<iostream>
+	"penyakit.h"
+	"pasien.h"
+
+1523288752 source:d:\tubes std\berobat 2\penyakit.cpp
+	"penyakit.h"
+
+1523288752 d:\tubes std\berobat 2\penyakit.h
+	<iostream>
+
+1523287501 d:\tubes std\berobat 2\pasien.h
+	<iostream>
+
+1523287504 source:e:\perkuliahan\tubes std\berobat 2\pasien.cpp
+	"pasien.h"
+
+1523971530 e:\perkuliahan\tubes std\berobat 2\pasien.h
+	"penyakit.h"
+
+1523970992 source:e:\perkuliahan\tubes std\berobat 2\penyakit.cpp
+	"penyakit.h"
+
+1523971739 e:\perkuliahan\tubes std\berobat 2\penyakit.h
+	<iostream>
+
+1523970100 source:e:\perkuliahan\tubes std\berobat 2\relasi.cpp
+	"relasi.h"
+
+1523971758 source:e:\perkuliahan\tubes std\berobat 2\main.cpp
+	"relasi.h"
+
+1523971739 e:\perkuliahan\tubes std\berobat 2\relasi.h
+	"pasien.h"
+
