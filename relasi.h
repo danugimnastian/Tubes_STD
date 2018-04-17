@@ -3,7 +3,6 @@
 
 #include "pasien.h"
 
-
 #define next(p) p->next
 #define almtpenyakit(p) p->almtpenyakit
 #define almtpasien(p) p->almtpasien
@@ -24,8 +23,8 @@ void createListR(listrelasi &L);
 void allocateR(adr_r &ra, adr_P p, adr_pa pa);
 void deallocateR(adr_r &ra);
 void insertfirstR(listrelasi &L, adr_r R);
-
-
+void PrintPasien(listrelasi lr , adr_pa pa);
+void PrintAllPasien(listrelasi lr , listPasien lp);
 
 
 

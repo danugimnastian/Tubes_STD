@@ -11,6 +11,7 @@
 
 //using namespace std;
 typedef struct elmPasien *adr_pa;
+
 struct infoPasien{
     string namaPasien;
 

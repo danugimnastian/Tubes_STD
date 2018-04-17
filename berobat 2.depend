@@ -42,21 +42,21 @@
 1523973096 source:d:\diske\kuliah\github\danu\penyakit.cpp
 	"penyakit.h"
 
-1523973096 d:\diske\kuliah\github\danu\penyakit.h
+1523976828 d:\diske\kuliah\github\danu\penyakit.h
 	<iostream>
 
-1523973096 source:d:\diske\kuliah\github\danu\relasi.cpp
+1523977044 source:d:\diske\kuliah\github\danu\relasi.cpp
 	"relasi.h"
 
-1523973096 d:\diske\kuliah\github\danu\relasi.h
+1523976807 d:\diske\kuliah\github\danu\relasi.h
 	"pasien.h"
 
-1523974233 d:\diske\kuliah\github\danu\pasien.h
+1523976807 d:\diske\kuliah\github\danu\pasien.h
 	"penyakit.h"
 
-1523974233 source:d:\diske\kuliah\github\danu\main.cpp
+1523976914 source:d:\diske\kuliah\github\danu\main.cpp
 	"relasi.h"
 
-1523974233 source:d:\diske\kuliah\github\danu\pasien.cpp
+1523976444 source:d:\diske\kuliah\github\danu\pasien.cpp
 	"pasien.h"
 
