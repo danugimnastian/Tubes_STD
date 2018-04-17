@@ -43,7 +43,7 @@ int main()
         cout<<"Nama pasien : ";
         cin>> namaPasien;
 
-        if(cariNama(Lp , namaPasien) == NULL){
+        if(cariNama(Lp , namaPasien) != NULL){
             cout<<"Pasien Sudah Ada"<<endl;
         }else{
 
