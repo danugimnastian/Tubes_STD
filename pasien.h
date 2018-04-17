@@ -1,6 +1,8 @@
 #ifndef PASIEN_H_INCLUDED
 #define PASIEN_H_INCLUDED
 #include "penyakit.h"
+
+
 #define next(p) p->next
 #define info(p) p->info
 #define first(L) L.first
