@@ -54,6 +54,9 @@
 1523974233 d:\diske\kuliah\github\danu\pasien.h
 	"penyakit.h"
 
-1523973626 source:d:\diske\kuliah\github\danu\main.cpp
+1523974233 source:d:\diske\kuliah\github\danu\main.cpp
 	"relasi.h"
+
+1523974233 source:d:\diske\kuliah\github\danu\pasien.cpp
+	"pasien.h"
 
